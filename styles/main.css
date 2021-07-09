@@ -20,7 +20,8 @@ body {
     background-color:rgb(99, 99, 99);
 }
 
-.rep {
+/* Main container for all Representative information, pictures, and lists. */
+ .rep {
     margin: auto;
     width: 700px;
     border: 3px black solid;
@@ -47,6 +48,7 @@ body {
     padding: 8px 0px 5px 0px;
 }
 
+/* Basic information about the Representative */
 .section__basics {
     padding: 5px 5px 5px 10px;
     margin: 0px 0px 0px 10px;
@@ -60,6 +62,7 @@ body {
     color: rgb(0, 45, 102)
 }
 
+/* Lists Representative's membership in committees, styled every odd item in a different color for contrast and readability. */
 .section__committee {
     margin: 0px 10px 0px 10px;
     background-color: #cc0000;
@@ -67,19 +70,26 @@ body {
     clear: left;
     color: white
 }
-
 .section__committee:nth-of-type(odd) {
     background-color: rgb(0, 45, 102);
 }
 
+/* Link section to enacted bills, listen in an unordered list, bulleted with a square */
 .section__links {
     margin: 0px 10px 0px 10px;
 }
-
+.section__links a:hover{
+    color: rgb(0, 45, 102);
+}
+.section__links a:active{
+    color:#cc0000;
+}
+.section__links a:visited{
+    color:rgb(99, 99, 99);
+}
 ul {
     list-style: square;
 }
-
 li {
     margin-bottom: 5px;
 }
