@@ -1,0 +1,84 @@
+header {
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+    padding: 5px 0px 0px 0px;
+ }
+
+header h1 {
+    margin-top: 10px;
+    font-size: 38px;
+    background-color: rgb(0, 45, 102);
+    color: white;
+    width: 100%
+}
+
+body {
+    justify-content: center;
+    font-size: 20px;
+    background-color: rgb(255, 255, 255);
+}
+
+.rep {
+    margin: auto;
+    width: 700px;
+    border: 3px black solid;
+    border-radius: 5px;
+    background-color: lightgray;
+}
+
+.rep img {
+    margin: 6px 10px 20px -6px;
+    block-size: 200px;
+    border: 5px solid black;
+    border-radius: 5px;
+    float: left;
+}
+
+.rep #tnFlag {
+    display: flex;
+    flex-wrap: wrap;
+    block-size: 100px;
+    align-content: flex-end;
+    float: right;
+    border: none;
+    border-radius: 0;
+    padding: 8px 0px 5px 0px;
+}
+
+.section__basics {
+    padding: 5px 5px 5px 10px;
+    margin: 0px 0px 0px 10px;
+}
+.section__basics h2 {
+    margin: -8px 0px 20px 0px;
+}
+.section__basics h3 {
+    margin: 0px 0px 20px 0px;
+    padding: 0px;
+    color: rgb(0, 45, 102)
+}
+
+.section__committee {
+    margin: 0px 10px 0px 10px;
+    background-color: #cc0000;
+    padding: 5px;
+    clear: left;
+    color: white
+}
+
+.section__committee:nth-of-type(odd) {
+    background-color: rgb(0, 45, 102);
+}
+
+.section__links {
+    margin: 0px 10px 0px 10px;
+}
+
+ul {
+    list-style: square;
+}
+
+li {
+    margin-bottom: 5px;
+}
